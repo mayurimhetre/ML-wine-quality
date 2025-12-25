@@ -19,10 +19,20 @@ Common features include:
 ### 🎯 Project Objective
 The objective of this project is to **predict the quality of wine** using machine learning techniques based on its chemical properties.
 
+### Implementation
+
+#### 🌲 Random Forest
+Random Forest is an ensemble learning algorithm that builds multiple decision trees using random subsets of data and features, then combines their predictions using majority voting or averaging. This approach reduces overfitting and improves model accuracy.
+
+#### ⚡ XGBoost
+XGBoost (Extreme Gradient Boosting) is a powerful boosting algorithm that builds trees sequentially, where each new tree corrects the errors made by previous ones. It uses gradient descent optimization and regularization to achieve high performance and efficiency.
+
+---
+
 ### Results
 
 Random Forest Classifier and XGboost classifier gives 70 % accuracy when 3 categories are formed.
 
-quality < 6 --- > "-1"
-quality == 6 ---> 0
-quality > 6 ---> "1"
+- quality < 6 --- > "-1"
+- quality == 6 ---> 0
+- quality > 6 ---> "1"
